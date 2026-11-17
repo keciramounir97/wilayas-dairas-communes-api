@@ -1,0 +1,32 @@
+{
+  "name": "wilayas-dairas-communes-api",
+  "version": "1.0.0",
+  "description": "API REST Node.js / Express pour le découpage administratif de l'Algérie (69 wilayas, 550 daïras, 1541 communes)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keciramounir97/wilayas-dairas-communes-api.git"
+  },
+  "keywords": [
+    "algeria",
+    "algerie",
+    "wilayas",
+    "dairas",
+    "communes",
+    "api",
+    "express",
+    "dz"
+  ],
+  "author": "keciramounir97",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}

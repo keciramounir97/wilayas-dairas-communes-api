@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "wilayas-dairas-communes-api",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.js"
+    }
+  ]
+}
